@@ -6,6 +6,7 @@
 - Completed the Introduction to GitHub exercise.
 - Created my cybersecurity learning repository.
 - Cloned the repository to my computer.
+- Made my first local commit and pushed it to GitHub.
 
 ## What I Learned
 
@@ -16,4 +17,4 @@
 
 ## Next Step
 
-Complete my first local commit and push it to GitHub.
+Practise a complete branch, commit, push, pull request, and merge workflow.
