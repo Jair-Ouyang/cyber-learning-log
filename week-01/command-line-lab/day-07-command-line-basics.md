@@ -1,6 +1,3 @@
-Day 7 - Command-Line Basics
-I am learning how to manage files in Git Bash.
-These commands are useful for Linux and cybersecurity.
 # Day 7 - Command-Line Basics
 
 ## Objective
