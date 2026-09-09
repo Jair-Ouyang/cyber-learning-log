@@ -1,0 +1,2 @@
+I am learning how to change files in Git Bash.
+These commands are useful for Linux and cybersecurity.
