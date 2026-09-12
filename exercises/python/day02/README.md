@@ -15,14 +15,25 @@ Build a Python script that collects basic system information and compare its out
 
 Ubuntu WSL:
 
-```bash
+~~~bash
 python3 exercises/python/day02/system_check.py
+~~~
+
+Windows Git Bash:
+
+~~~bash
 python exercises/python/day02/system_check.py
+~~~
+
+## Results
+
 | Field | Windows | Ubuntu WSL |
 |---|---|---|
 | User | Lenovo | yijie |
 | Operating system | Windows | Linux |
 | Python version | 3.12.9 | 3.14.4 |
 | Architecture | AMD64 | x86_64 |
-Security Relevance
+
+## Security Relevance
+
 System information collection is a basic part of asset inventory, troubleshooting, incident response, and security automation.
