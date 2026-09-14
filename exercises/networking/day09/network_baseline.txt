@@ -1,0 +1,18 @@
+=== Network Interfaces ===
+lo               UNKNOWN        127.0.0.1/8 10.255.255.254/32 ::1/128
+eth0             UP             172.17.12.118/20 fe80::215:5dff:fe83:6b51/64
+=== Routes ===
+default via 172.17.0.1 dev eth0 proto kernel
+172.17.0.0/20 dev eth0 proto kernel scope link src 172.17.12.118
+=== Listening Ports ===
+Netid State  Recv-Q Send-Q  Local Address:Port Peer Address:Port
+udp   UNCONN 0      0          127.0.0.54:53        0.0.0.0:*
+udp   UNCONN 0      0       127.0.0.53%lo:53        0.0.0.0:*
+udp   UNCONN 0      0      10.255.255.254:53        0.0.0.0:*
+udp   UNCONN 0      0           127.0.0.1:323       0.0.0.0:*
+udp   UNCONN 0      0           127.0.0.1:323       0.0.0.0:*
+udp   UNCONN 0      0               [::1]:323          [::]:*
+udp   UNCONN 0      0               [::1]:323          [::]:*
+tcp   LISTEN 0      1000   10.255.255.254:53        0.0.0.0:*
+tcp   LISTEN 0      4096       127.0.0.54:53        0.0.0.0:*
+tcp   LISTEN 0      4096    127.0.0.53%lo:53        0.0.0.0:*
