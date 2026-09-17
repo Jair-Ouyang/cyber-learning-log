@@ -1,0 +1,17 @@
+{
+  "total_events": 8,
+  "successful_logins": 3,
+  "failed_logins": 5,
+  "invalid_lines_skipped": 1,
+  "failed_by_ip": {
+    "198.51.100.23": 4,
+    "203.0.113.44": 1
+  },
+  "alert_threshold": 3,
+  "alerts": [
+    {
+      "source_ip": "198.51.100.23",
+      "failed_logins": 4
+    }
+  ]
+}
