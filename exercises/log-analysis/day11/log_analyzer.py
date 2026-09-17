@@ -80,5 +80,6 @@ report_file = "exercises/log-analysis/day11/analysis_report.json"
 
 with open(report_file, "w", encoding="utf-8") as file:
     json.dump(report, file, indent=2)
+    file.write("\n")
 
 print("\nReport written to:", report_file)
